@@ -3,6 +3,116 @@ body {
       margin: 0;
       background: #f9f9f9;
     }
+    .banner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #f2f2f2;
+      padding: 15px 20px;
+      flex-wrap: wrap;
+      box-shadow: wheat;
+    }
+
+    .banner-text {
+      flex: 1 1 300px;
+      padding: 20px;
+    }
+
+    .banner-text h2 {
+      font-size: 24px;
+      color: white;
+      margin: 0 0 10px;
+      background-color: #0071c2;
+    
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    min-width: 400px;
+    }
+
+    .banner-text a {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 20px;
+      background-color: #003580;
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+    }
+
+    .banner-image {
+      flex: 1 1 300px;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .banner-image img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .popular-section {
+      padding: 30px 20px;
+    }
+
+    .popular-section h3 {
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+
+    .tab-buttons {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+    }
+
+    .tab-buttons button {
+      padding: 10px 16px;
+      border: 2px solid #0071c2;
+      background-color: white;
+      color: #0071c2;
+      border-radius: 20px;
+      cursor: pointer;
+    }
+
+    .tab-buttons button.active {
+      background-color: #0071c2;
+      color: white;
+    }
+
+    .cities {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+
+    .city-column {
+      flex: 1 1 150px;
+    }
+
+    .city-column ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .city-column li {
+      margin-bottom: 8px;
+      color: #333;
+    }
+
+    .show-more {
+      margin-top: 20px;
+      display: inline-block;
+      color: #0071c2;
+      cursor: pointer;
+    }
+
+    @media (max-width: 768px) {
+      .cities {
+        flex-direction: column;
+      }
+    }
     footer {
       background: #fff;
       padding: 40px 60px 20px;
