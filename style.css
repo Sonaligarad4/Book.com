@@ -3,6 +3,208 @@ body {
       margin: 0;
       background: #f9f9f9;
     }
+     h2 {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    p.subtext {
+      color: #555;
+      margin-top: -10px;
+      margin-bottom: 20px;
+    }
+
+    .hotel-container {
+      display: flex;
+      
+      flex-wrap: wrap;
+    }
+
+    .hotel-card {
+      width: 250px;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      background: #fff;
+      display: flex;
+      flex-direction: column;
+      margin-left: 70px;
+    }
+
+    .hotel-card img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+    }
+
+    .hotel-info {
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .hotel-info h4 {
+      margin: 0;
+      font-size: 16px;
+    }
+
+    .hotel-info p {
+      margin: 0;
+      font-size: 13px;
+      color: #555;
+    }
+
+    .rating {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      margin-top: 6px;
+    }
+
+    .rating span {
+      background: #003580;
+      color: #fff;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-size: 12px;
+      font-weight: bold;
+    }
+
+    .genius {
+      background: #003580;
+      color: white;
+      font-size: 11px;
+      padding: 2px 6px;
+      border-radius: 3px;
+      display: inline-block;
+      margin-top: 6px;
+    }
+
+    .getaway {
+      background: #00aa6c;
+      color: white;
+      font-size: 11px;
+      padding: 2px 6px;
+      border-radius: 3px;
+      display: inline-block;
+      margin-top: 6px;
+    }
+
+    .price {
+      margin: 10px;
+      font-size: 14px;
+      color: #333;
+    }
+
+    .price del {
+      color: #c00;
+      margin-right: 5px;
+    }
+
+    .price strong {
+      color: #000;
+    }
+    .section-title {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 16px;
+    }
+
+    .cards {
+      display: flex;
+      gap: 16px;
+      margin-bottom: 40px;
+    }
+
+    .card {
+      width: 30%;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      position: relative;
+    }
+
+    .card img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .card .text-overlay {
+      position: absolute;
+      bottom: 0;
+      color: white;
+      background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent);
+      width: 100%;
+      padding: 10px;
+    }
+
+    .card .text {
+      padding: 10px;
+    }
+
+    .card h4 {
+      margin: 0;
+      font-weight: bold;
+    }
+
+    .card p {
+      margin: 5px 0 0;
+      font-size: 14px;
+      color: #555;
+    }
+
+    .promo-section {
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .promo-text {
+      max-width: 70%;
+    }
+
+    .promo-text h4 {
+      margin: 0 0 10px;
+      font-size: 18px;
+    }
+
+    .promo-text p {
+      font-size: 14px;
+      color: #333;
+    }
+
+    .promo-buttons a {
+      text-decoration: none;
+      margin-right: 10px;
+      padding: 8px 16px;
+      border-radius: 4px;
+      font-size: 14px;
+    }
+
+    .sign-in {
+      background-color: #006ce4;
+      color: white;
+    }
+
+    .register {
+      color: #006ce4;
+    }
+
+    .promo-image {
+      width: 100px;
+    }
+
+    .promo-image img {
+      width: 100%;
+    }
+  
+
     .banner {
       display: flex;
       justify-content: space-between;
